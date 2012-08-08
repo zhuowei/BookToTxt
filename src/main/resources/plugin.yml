@@ -1,0 +1,12 @@
+author: zhuowei
+main: net.zhuoweizhang.booktotxt.BookToTxtPlugin
+name: BookToTxt
+version: '1.0'
+commands:
+    booktotxt:
+        usage: /<command> <filename> (hold a book in your hand)
+        permission: booktotxt.use
+permissions:
+    booktotxt.use:
+        description: Allows the user to use the /booktotxt command
+        default: op
